@@ -1,0 +1,134 @@
+
+
+.divhaut {
+	width: 100%;
+	font-size: 12px;
+	font-family: 'Arial';
+	font-weight: normal;
+	text-align: left;
+	/*color: red;*/
+	background-color: #dfe8e8;
+	/*border-bottom: 0px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;*/
+
+	/*margin-top: : 0px;
+	margin-bottom: 0px;*/
+
+
+    /*border: 0px dashed red; */
+    /*border: 0px solid red; */
+    /*border-style: solid; border-width:thin; border-color: red;*/
+    border: 0px solid blue;
+    /*padding: 0px; 
+    margin: 0 auto;*/
+
+    height: 15%;
+}
+
+.divlogo {
+	width: 10%;
+	height: 17%;
+	font-size: 12px;
+	font-family: 'Arial';
+	font-weight: normal;
+	text-align: left;
+	background-color: #dfe8e8;
+    /*border-style: solid; border-width:thin; border-color: red;*/
+    border: 0px solid black;
+    position: absolute;
+}
+
+.divmenu {
+	width: 80%;
+	height: 17%;
+	font-size: 12px;
+	font-family: 'Arial';
+	font-weight: normal;
+	text-align: left;
+	background-color: #dfe8e8;
+    /*border-style: solid; border-width:thin; border-color: red;*/
+    border: 0px solid black;
+    position: absolute;
+	top: 9px;
+	left: 10%;
+	align-content: flex-end;
+}
+
+.divboutonsmenu {
+	height: 100%;
+	font-size: 12px;
+	font-family: 'Arial';
+	font-weight: normal;
+	text-align: left;
+	background-color: #dfe8e8;
+    /*border-style: solid; border-width:thin; border-color: red;*/
+    border: 0px solid black;
+    position: absolute;
+	top: 0px;
+	left: 40%;
+	align-content: flex-end;
+}
+
+.divimagebouton1 {
+	height: 100%;
+	text-align: left;
+	background-color: #dfe8e8;
+    border: 0px solid black;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+	width: 100%;
+	height: auto;
+}
+
+.divimagebouton2 {
+	height: 100%;
+	text-align: left;
+	background-color: #dfe8e8;
+    border: 0px solid black;
+    position: absolute;
+    left: 250px;
+    top: 20px;
+	width: 100%;
+	height: auto;
+}
+
+.divpanier {
+	width: 10%;
+	height: 17%;
+	font-size: 12px;
+	font-family: 'Arial';
+	font-weight: normal;
+	text-align: right;
+	align-content: flex-start;
+	background-color: #dfe8e8;
+    /*border-style: solid; border-width:thin; border-color: red;*/
+    border: 0px solid black;
+    position: absolute;
+	top: 9px;
+	right: 10px;
+
+
+}
+
+.textgras {
+	font-size: 12px;
+	font-family: 'Arial';
+	font-weight: bold;
+	text-align: center;
+	color: #444a4d;
+}
+
+.imgresponsive {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+

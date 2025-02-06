@@ -1,0 +1,131 @@
+
+html {
+    scrollbar-color: #444a4d #dfe8e8;
+    scrollbar-width: thin;
+}
+
+.principale {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.divcentre {
+	width: 98%;
+	font-size: 12px;
+	font-family: 'Arial';
+	font-weight: normal;
+	/*align-content: center;
+	text-align: center;*/
+
+	background-color: #dfe8e8;
+	height: 80%;
+	overflow: auto;
+    border: 0px solid green;
+
+    flex-grow : 1;
+
+    position: absolute;
+    top: 15%;
+
+}
+
+.divcontenu {
+	width: 79%;
+	font-size: 12px;
+	font-family: 'Arial';
+	font-weight: normal;
+	text-align: left;
+	background-color: #dfe8e8;
+
+    /*border-style: solid; border-width:thin; border-color: green;*/
+
+	border: 0px solid black;
+
+	position: relative;
+	top: 5%;
+	left: 10%;
+	height: 95%;
+}
+
+.menugauche {
+	width: 20%;
+	font-size: 12px;
+	font-family: 'Arial';
+	font-weight: normal;
+	text-align: left;
+	background-color: #dfe8e8;
+
+    /*border-style: solid; border-width:thin; border-color: green;*/
+
+	border: 0px solid black;
+
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 100%;
+}
+
+.textcentral {
+	width: 35%;
+	font-size: 20px;
+	font-family: 'Arial';
+	font-weight: normal;
+	text-align: left;
+	color: #444a4d;
+	background-color: #dfe8e8;
+	border: 0px solid black;
+	position: absolute;
+	top: 0%;
+	left: 20%;
+	height: 100%;
+}
+
+.textcentralimage {
+	width: 40%;
+	font-size: 14px;
+	font-family: 'Arial';
+	font-weight: normal;
+	text-align: left;
+	color: #444a4d;
+	background-color: #dfe8e8;
+	border: 0px solid black;
+	position: absolute;
+	top: 0%;
+	left: 60%;
+	height: 100%;
+}
+
+
+.liennormal {
+	font-size: 14px;
+	font-family: 'Arial';
+	font-weight: bold;
+	text-align: center;
+	color: #444a4d;
+	text-decoration: none;
+  }
+
+.liennormal:hover {
+	font-size: 14px;
+	font-family: 'Arial';
+	font-weight: bold;
+	text-align: center;
+	color: #38a152;
+	text-decoration: none;
+  }
+
+  .divproduit {
+	width: 100%; left: 0%; border: 0px solid black; 
+    position: absolute; text-align: center; font-size: 12px; font-family: 'Arial'; 
+    font-weight: bold; color: #444a4d;
+  }
+
+  .texterreur {
+    font-size: 12px;
+    font-family: 'Arial';
+    font-weight: normal;
+    text-align: center;
+    color: red;
+  }
+

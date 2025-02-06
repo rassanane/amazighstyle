@@ -1,0 +1,36 @@
+.divbas {
+	width: 98%;
+	font-size: 12px;
+	font-family: 'Arial';
+	font-weight: normal;
+	text-align: right;
+	/*color: red;*/
+	background-color: #dfe8e8;
+	border: 0px solid red;
+	align-content: center;
+	height: 3%;
+	font-weight: bold;
+	color: #444a4d;
+
+    position: absolute;
+    bottom: 0%;
+
+}
+
+.liennormal {
+	font-size: 11px;
+	font-family: 'Arial';
+	font-weight: bold;
+	text-align: center;
+	color: #444a4d;
+	text-decoration: underline;
+  }
+
+.liennormal:hover {
+	font-size: 11px;
+	font-family: 'Arial';
+	font-weight: bold;
+	text-align: center;
+	color: #38a152;
+	text-decoration: none;
+  }
