@@ -1,1 +1,0 @@
-{"ast":null,"code":"export const environment = {\n  production: true,\n  //produitsRestUrl       : 'http://localhost:9191/api/produits',\n  //Docker\n  produitsRestUrl: 'http://localhost:9092/api/produits'\n};","map":null,"metadata":{},"sourceType":"module"}
