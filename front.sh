@@ -1,6 +1,6 @@
 #!/bin/bash
 
-########## script d'installation docker et conteneur biblio-front ##########
+########## script d'installation docker et conteneur produits-front ##########
 
 #debug mode
 set -x  # Enable debug mode
@@ -34,11 +34,11 @@ sudo usermod -aG docker $USER
 docker --version
 
 # Recuperation image
-sudo docker pull rassanane/bibliothque-app-image
+sudo docker pull rassanane/produits-front
 
 # Install conteneur
-#sudo docker run -d -p 80:80 rassanane/bibliothque-app-image:latest
-sudo docker run -d -p 4200:80 rassanane/bibliothque-app-image:latest
+#sudo docker run -d -p 80:80 rassanane/produits-front:latest
+sudo docker run -d -p 4200:80 rassanane/produits-front:latest
 
 echo "Fin installation"
 
